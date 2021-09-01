@@ -1,4 +1,5 @@
 def interface():
+
     print('Blood Calculators')
     print('Make a choice')
     print('9 - Quit')
@@ -13,4 +14,5 @@ def HDL_Driver():
     HDL_character = hdl_analysis(HDL_value)
     hdl_output(HDL_vlue, HDL_character)
 
-def hdl_input()
+def hdl_input():
+    hdl_value = int(input())
