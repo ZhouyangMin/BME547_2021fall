@@ -1,11 +1,22 @@
 def interface():
+    print('Blood calculator')
+    keep_running = True
+    while keep_running:
+        print('\nMake a choice')
+        print('1 - HDL Analysis')
+        print('2 - LDL Analysis')
+        print('3 - Total Cholesterol Analysis')
+        print('9 - Quit')
+        choice = int(input('Make a choice: '))
+        if choice == 9:
+            keep_running = False
+        elif choice == 1:
+            HDL_Driver()
+        elif choice == 2:
+            LDL_Driver()
+        else total
 
-    print('Blood Calculators')
-    print('Make a choice')
-    print('9 - Quit')
-    choice = input('make a choice: ')
-    print(choice)
-    return choice
+    
 interface()
 
 
@@ -16,3 +27,7 @@ def HDL_Driver():
 
 def hdl_input():
     hdl_value = int(input())
+
+def hdl_analysis():
+    
+def total_analysis(total_value)
