@@ -1,4 +1,5 @@
-#Weight entry
+# Weight entry
+
 def input_weight_entry():
     print("Enter patient weight in form of ## units (e.g., 105.3 lb)")
     weight_input = input("Enter weight: ")
@@ -25,4 +26,3 @@ def convert_lb_to_kg(weight_lb):
 
 if __name__ == "__main__":
     input_weight_entry()
-
