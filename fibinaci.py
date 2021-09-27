@@ -5,7 +5,7 @@ import logging
 def fibinaci(input_list):
     next_entry = input_list[-2] + input_list[-1]
     input_list.append(next_entry)
-    logging.warning("This iteration is {}".format(input_list))
+    logging.info("This iteration is {}".format(input_list))
     print(input_list)
     if next_entry <= 100:
         fibinaci(input_list)
